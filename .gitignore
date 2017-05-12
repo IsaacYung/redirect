@@ -1,3 +1,4 @@
+
 # The directory Mix will write compiled artifacts to.
 /_build
 
@@ -15,3 +16,10 @@ erl_crash.dump
 
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
+
+*
+!.vim
+!.vimrc
+!.viminfo
+!.gitignore
+
